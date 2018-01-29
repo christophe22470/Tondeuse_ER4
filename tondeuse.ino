@@ -3,6 +3,7 @@
 
 #define RxD 2
 #define TxD 3
+
 //Arduino PWM Speed Control：
 int E1 = 5;   
 int M1 = 4; 
@@ -134,9 +135,10 @@ void setup()
 	arret();
 
 	etat=EtatSTOP;
-	accelere(DEVANT,0);
+	//accelere(DEVANT,0);
 	resetChrono();
 } 
+
 int impa;
 
 void loop() 
